@@ -33,16 +33,15 @@ h2 {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .flex-item {
-  flex-grow: 1;
-  display:inline-flex;
-  width:20%;
+  flex: 0 0 33%;
+  padding: 25px;
+  min-width:300px;
 }
 
 .section {
